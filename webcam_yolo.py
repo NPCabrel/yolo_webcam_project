@@ -62,7 +62,7 @@ while True:
     if boxes is not None:
         for box in boxes:
             # coordiate of box
-            x1, y1, x2, y2 = map(int box.xyxy[0].tolist())
+            x1, y1, x2, y2 = map(int, box.xyxy[0].tolist())
             cls = int(box.cls[0])
             class_name = model.names[cls]
             confidence = float(box.conf[0])
