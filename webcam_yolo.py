@@ -18,7 +18,7 @@ print("Webcam run. tippe 'q' on the image/object-section to close.")
 
 
 # 4. Endless loop: a frame after another
-while true:
+while True:
     #read Frame from camera
     ret, frame = cap.read()
     if not ret:
