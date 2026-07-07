@@ -21,3 +21,28 @@
 ## Architecture
 
 Have a look under asset/yolo-architecture
+
+---
+
+## Quick Start
+
+### Prerequisites
+- Python 3.9+
+- Webcam
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/NPCabrel/yolo_webcam_project.git
+cd yolo_webcam_project
+
+# 2. Create a virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the application
+python src/main.py
