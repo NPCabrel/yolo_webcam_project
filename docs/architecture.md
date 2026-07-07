@@ -26,15 +26,15 @@
 
 ## Flux de données
 
-1. **WebcamStream** capture une frame
-2. **YOLODetector** détecte les objets
-3. **DistanceAlarm** vérifie si des personnes sont trop proches
-4. **ScreenshotManager** sauvegarde l'image si déclenché
-5. **UI** affiche le résultat
+1. **WebcamStream** capture a frame
+2. **YOLODetector** detecte  objets
+3. **DistanceAlarm** verify if the personnes aren't far awy
+4. **ScreenshotManager** save the image if detected
+5. **UI** show the result
 
 ## Design Patterns utilisés
 
-- **Singleton**: Configuration globale
-- **Factory**: Création des composants
-- **Strategy**: Plugins de détection (futur)
-- **Observer**: Pour les événements (alarme, screenshot)
+- **Singleton**: globla Configurationx
+- **Factory**: Creation of composants
+- **Strategy**: Plugins of detection (futur)
+- **Observer**: for  events (alarm, screenshot)
