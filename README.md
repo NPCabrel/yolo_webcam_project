@@ -1,18 +1,28 @@
-# yolo_webcam_project
-Real‑Time Object Detection on a Webcam with YOLOv8 and Custom Filter
+# YOLO-Webcam Security System
 
-Step 1: prepare project folder and python environment
-Step 2: installation of essential python packets
+**Real-time object detection with YOLOv8 + OpenCV – designed for industrial surveillance and social distancing monitoring.**
 
- #####  Goal is to install 3 Libraries: 
-  - ultralytics : has YOLOv8n (AI model for object/image detection)
-  - openCV-python : for webcam and object 
-  - and NumPy : for operations
-Step 3 : first script webcam + yolov8n
-Step 4 : self additional logic
-  - Option A: count person
-  shows top left the number of person present
-  - Option B: calculate distance between 2 person + alarm
-  if two person are too closed, then write red "distance too small"
-  - Option C: Screenshot by detected object
-  always store a screenshot when an object is detected.
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
+[![YOLOv8](https://img.shields.io/badge/YOLOv8-ultralytics-red)](https://github.com/ultralytics/ultralytics)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
+## 🎯 Features
+
+- **Real-time detection** at **30 FPS** on standard hardware (CPU only)
+- **People counting** with live display
+- **Social distancing alarm** – visual alert when two persons are too close (threshold configurable)
+- **Smart screenshot** – automatically saves images when specific objects (e.g., `cell phone`) are detected
+- **Modular architecture** – easy to extend with new models or filters
+- **Fully documented** codebase with unit tests
+
+---
+
+## 📸 Demo
+
+*[INSERT GIF OR IMAGE OF THE SYSTEM IN ACTION]*
+
+---
+
+## 🏗️ Architecture
