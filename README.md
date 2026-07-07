@@ -6,7 +6,7 @@
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-ultralytics-red)](https://github.com/ultralytics/ultralytics)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
----
+
 
 ##  Features
 
@@ -17,7 +17,7 @@
 - **Modular architecture** – easy to extend with new models or filters
 - **Fully documented** codebase with unit tests
 
----
+
 
 
 ## Architecture
