@@ -18,8 +18,6 @@
 - **Fully documented** codebase with unit tests
 
 
-
-
 ## Architecture
 
 Have a look under asset/yolo-architecture
