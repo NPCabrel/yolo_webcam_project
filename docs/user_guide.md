@@ -9,3 +9,11 @@ cd yolo_webcam_project
 
 # Install  dependancies
 pip install -r requirements.txt
+
+
+run this 
+python src/main.py
+
+
+to quite the app, use:
+q or Ctrl+c
