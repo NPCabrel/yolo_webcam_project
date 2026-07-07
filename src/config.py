@@ -1,6 +1,7 @@
 # src/config.py
 from dataclasses import dataclass
 from typing import List, Tuple
+import cv2
 
 @dataclass
 class DetectionConfig:
