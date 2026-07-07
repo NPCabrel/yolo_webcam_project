@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 Features
+##  Features
 
 - **Real-time detection** at **30 FPS** on standard hardware (CPU only)
 - **People counting** with live display
@@ -19,10 +19,7 @@
 
 ---
 
-## 📸 Demo
 
-*[INSERT GIF OR IMAGE OF THE SYSTEM IN ACTION]*
+## Architecture
 
----
-
-## 🏗️ Architecture
+Have a look under asset/yolo-architecture
