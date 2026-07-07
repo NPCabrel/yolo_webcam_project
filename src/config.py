@@ -23,7 +23,7 @@ class AlarmConfig:
 class ScreenshotConfig:
     """Configuration for screenshot capture."""
     enabled: bool = True
-    trigger_classes: Tuple[str, ...] = ("cell phone",)
+    trigger_classes: Tuple[str, ...] = ("cell phone", "handy", "laptop", "airpots", "Uhr", "Ring", "Kette")
     output_dir: str = "screenshots"
     format: str = "jpg"
     quality: int = 95
