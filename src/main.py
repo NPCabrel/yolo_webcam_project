@@ -93,11 +93,11 @@ class YOLOSecuritySystem:
         self.is_running = False
         self.stream.release()
         cv2.destroyAllWindows()
-        print("\n📊 Statistics:")
+        print("\n Statistics:")
         print(f"   - Frames processed: {self.frame_count}")
         print(f"   - Screenshots: {self.screenshot_mgr.get_count()}")
         print(f"   - Alarms triggered: {self.alarm.get_statistics()['alarm_trigger_count']}")
-        print("👋 Program ended.")
+        print("Program ended.")
 
 
 def main():
